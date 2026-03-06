@@ -1,0 +1,19 @@
+{
+  "name": "git_hub-clone-cli",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cli-progress": "^3.12.0",
+    "clone": "^2.1.2",
+    "commander": "^14.0.3",
+    "git_hub-clone-cli.git": "git@github.com:bakshiyogesh/git_hub-clone-cli.git"
+  }
+}
